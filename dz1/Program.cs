@@ -1,15 +1,23 @@
-﻿Console.WriteLine("M:");
-int m = Convert.ToInt32(Console.ReadLine());
-Console.WriteLine("N:");
-int n = Convert.ToInt32(Console.ReadLine());
-void GapNumberSum (int numberM, int numberN, int sum)
+﻿string[] array = new string[8] {"FOX", "4", "MIX", "finrir", "-1", "big", "record", "222"};
+string[] array2 = new string[array.Length];        
+int а = 0;
+for (int i = 0; i < array.Length; i++)
 {
-    if (numberM > numberN) 
-    {
-      Console.WriteLine($"Сумма: {sum}");
-        return;          
+    if (array[i].Length <=3)
+    {   
+        array2[а] = array[i];
+        а++; 
     }
-    sum = sum + (numberM++); GapNumberSum(numberM, numberN, sum);
 }
 
-GapNumberSum(m, n, 0);
+WriteArray(array2);
+
+void WriteArray(string[] array)      
+{
+    for ( int i = 0; i < array.Length; i++)
+    {
+        Console.Write(array[i] + " "); 
+                                       
+    }
+    Console.WriteLine();
+}

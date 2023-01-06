@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\79524\\Desktop\\домашка\\dz\\dz1\\dz1.csproj",
-      "projectName": "dz1",
-      "projectPath": "C:\\Users\\79524\\Desktop\\домашка\\dz\\dz1\\dz1.csproj",
+      "projectUniqueName": "C:\\Users\\79524\\Desktop\\домашка\\dz\\dz2-blok-sxema\\dz2-blok-sxema.csproj",
+      "projectName": "dz2-blok-sxema",
+      "projectPath": "C:\\Users\\79524\\Desktop\\домашка\\dz\\dz2-blok-sxema\\dz2-blok-sxema.csproj",
       "packagesPath": "C:\\Users\\79524\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\79524\\Desktop\\домашка\\dz\\dz1\\obj\\",
+      "outputPath": "C:\\Users\\79524\\Desktop\\домашка\\dz\\dz2-blok-sxema\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\79524\\AppData\\Roaming\\NuGet\\NuGet.Config"
